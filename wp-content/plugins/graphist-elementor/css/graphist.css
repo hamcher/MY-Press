@@ -1,0 +1,130 @@
+/**
+ * Graphist for Elementor
+ * Creates modern and stylish Elementor widgets to display awesome charts and graphs.
+ * Exclusively on https://1.envato.market/graphist-elementor
+ *
+ * @encoding        UTF-8
+ * @version         1.2.1
+ * @copyright       (C) 2018 - 2021 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Nemirovskiy Vitaliy (nemirovskiyvitaliy@gmail.com), Dmitry Merkulov (dmitry@merkulov.design)
+ * @support         help@merkulov.design
+ **/
+.mdp-graph-conventions ul {
+  list-style-position: inside;
+  -moz-column-count: 2;
+  column-count: 2;
+  list-style-type: decimal;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.mdp-graph-conventions ul li {
+  margin: 0; }
+
+.mdp-item-color {
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 2px;
+  margin-right: 5px; }
+
+.ct-label.ct-vertical.ct-start {
+  justify-content: inherit; }
+  .ct-label.ct-vertical.ct-start.ct-chart-pie, .ct-label.ct-vertical.ct-start.ct-chart-donut {
+    overflow: visible; }
+
+svg.ct-chart-line, svg.ct-chart-pie, svg.ct-chart-donut, svg.ct-chart-bar {
+  overflow: visible; }
+
+.ct-chart-line .ct-area {
+  fill-opacity: 1;
+  mix-blend-mode: multiply; }
+
+.ct-label {
+  font-size: .615rem;
+  line-height: 1rem; }
+
+.ct-golden-section {
+  z-index: 0; }
+
+.mdp-graphist-elementor-header,
+.mdp-graphist-elementor-footer {
+  overflow: hidden;
+  display: flex; }
+  .mdp-graphist-elementor-header.mdp-top-left,
+  .mdp-graphist-elementor-footer.mdp-top-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left; }
+  .mdp-graphist-elementor-header.mdp-top-center,
+  .mdp-graphist-elementor-footer.mdp-top-center {
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center; }
+  .mdp-graphist-elementor-header.mdp-top-right,
+  .mdp-graphist-elementor-footer.mdp-top-right {
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: right; }
+  .mdp-graphist-elementor-header.mdp-center-left,
+  .mdp-graphist-elementor-footer.mdp-center-left {
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left; }
+  .mdp-graphist-elementor-header.mdp-center-center,
+  .mdp-graphist-elementor-footer.mdp-center-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .mdp-graphist-elementor-header.mdp-center-right,
+  .mdp-graphist-elementor-footer.mdp-center-right {
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right; }
+  .mdp-graphist-elementor-header.mdp-bottom-left,
+  .mdp-graphist-elementor-footer.mdp-bottom-left {
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left; }
+  .mdp-graphist-elementor-header.mdp-bottom-center,
+  .mdp-graphist-elementor-footer.mdp-bottom-center {
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center; }
+  .mdp-graphist-elementor-header.mdp-bottom-right,
+  .mdp-graphist-elementor-footer.mdp-bottom-right {
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right; }
+  .mdp-graphist-elementor-header .mdp-graphist-elementor-image,
+  .mdp-graphist-elementor-footer .mdp-graphist-elementor-image {
+    display: flex; }
+  .mdp-graphist-elementor-header span[data-size="large"],
+  .mdp-graphist-elementor-header p[data-size="large"],
+  .mdp-graphist-elementor-footer span[data-size="large"],
+  .mdp-graphist-elementor-footer p[data-size="large"] {
+    font-size: larger; }
+  .mdp-graphist-elementor-header span[data-size="small"],
+  .mdp-graphist-elementor-header p[data-size="small"],
+  .mdp-graphist-elementor-footer span[data-size="small"],
+  .mdp-graphist-elementor-footer p[data-size="small"] {
+    font-size: smaller; }
+  .mdp-graphist-elementor-header h1,
+  .mdp-graphist-elementor-header h2,
+  .mdp-graphist-elementor-header h3,
+  .mdp-graphist-elementor-header h4,
+  .mdp-graphist-elementor-header h5,
+  .mdp-graphist-elementor-header h6,
+  .mdp-graphist-elementor-footer h1,
+  .mdp-graphist-elementor-footer h2,
+  .mdp-graphist-elementor-footer h3,
+  .mdp-graphist-elementor-footer h4,
+  .mdp-graphist-elementor-footer h5,
+  .mdp-graphist-elementor-footer h6 {
+    margin: 0; }
+
+.mdp-graphist-elementor-row {
+  display: flex;
+  justify-content: space-between; }

@@ -1,0 +1,65 @@
+# Translation of Themes - ShopMax in English (UK)
+# This file is distributed under the same license as the Themes - ShopMax package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-31 14:37:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - ShopMax\n"
+
+#. Description of the theme
+msgid "ShopMax is a flexible and attractive WooCommerce WordPress theme. The theme includes powerful sections with an innovative design that would easily fit into your new or existing online store. Suitable for every type of store. Checkout Pro Version https://burgerthemes.com/demo/pro/shopmax/"
+msgstr "ShopMax is a flexible and attractive WooCommerce WordPress theme. The theme includes powerful sections with an innovative design that would easily fit into your new or existing online store. Suitable for every type of store. Checkout Pro Version https://burgerthemes.com/demo/pro/shopmax/"
+
+#. Theme Name of the theme
+msgid "ShopMax"
+msgstr "ShopMax"
+
+#: inc/customizer/customizer-pro/class-customize.php:76
+msgid "Get More Features in ShopMax Pro"
+msgstr "Get More Features in ShopMax Pro"
+
+#: template-parts/sections/section-header.php:205
+msgid "Header Above Collapse"
+msgstr "Header Above Collapse"
+
+#: template-parts/sections/section-header.php:199
+msgid "Header Close Menu"
+msgstr "Header Close Menu"
+
+#: template-parts/sections/section-header.php:190
+msgid "Menu Collapsed"
+msgstr "Menu Collapsed"
+
+#: template-parts/sections/section-header.php:96
+#: template-parts/sections/section-header.php:115
+msgid "0"
+msgstr "0"
+
+#: template-parts/sections/section-header.php:61
+msgid "Find Your products..."
+msgstr "Find Your products..."
+
+#: template-parts/sections/section-header.php:48
+msgid "Select Category"
+msgstr "Select Category"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#. Theme URI of the theme
+msgid "https://burgerthemes.com/shopmax-free/"
+msgstr "https://burgerthemes.com/shopmax-free/"
+
+#. Author URI of the theme
+msgid "https://burgerthemes.com/"
+msgstr "https://burgerthemes.com/"
+
+#. Author of the theme
+msgid "burgersoftware"
+msgstr "burgersoftware"
